@@ -12,6 +12,7 @@ django-cleanup = "*"
 djoser = "*"
 djangorestframework-simplejwt = "*"
 social-auth-app-django = "*"
+coverage = "*"
 
 [dev-packages]
 

@@ -15,7 +15,7 @@ urlpatterns = [
             'get': 'list',
             'put': 'update',
             'delete': 'destroy'
-        }), name=' '),
+        }), name='current_user'),
     path('photo/', PhotoAPIList.as_view(), name='photo'),
     path('photo/<int:pk>', PhotoAPIUpdate.as_view(), name='photo_detail'),
     path('photodelete/<int:pk>', PhotoAPIDestroy.as_view(), name='photo_delete'),
